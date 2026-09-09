@@ -1,0 +1,602 @@
+[
+  {
+    "doc_id": "DOC-INV-001",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-001.png"
+  },
+  {
+    "doc_id": "DOC-INV-002",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-002.png"
+  },
+  {
+    "doc_id": "DOC-INV-003",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-003.png"
+  },
+  {
+    "doc_id": "DOC-INV-004",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-004.png"
+  },
+  {
+    "doc_id": "DOC-INV-005",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-005.png"
+  },
+  {
+    "doc_id": "DOC-INV-006",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-006.png"
+  },
+  {
+    "doc_id": "DOC-INV-007",
+    "doc_type": "invoice",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-INV-007.png"
+  },
+  {
+    "doc_id": "DOC-INV-008",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-008.png"
+  },
+  {
+    "doc_id": "DOC-INV-009",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-009.png"
+  },
+  {
+    "doc_id": "DOC-INV-010",
+    "doc_type": "invoice",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-INV-010.png"
+  },
+  {
+    "doc_id": "DOC-INV-011",
+    "doc_type": "invoice",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-INV-011.png"
+  },
+  {
+    "doc_id": "DOC-INV-012",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-012.png"
+  },
+  {
+    "doc_id": "DOC-INV-013",
+    "doc_type": "invoice",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-INV-013.png"
+  },
+  {
+    "doc_id": "DOC-INV-014",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-014.png"
+  },
+  {
+    "doc_id": "DOC-INV-015",
+    "doc_type": "invoice",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-INV-015.png"
+  },
+  {
+    "doc_id": "DOC-INV-016",
+    "doc_type": "invoice",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-INV-016.png"
+  },
+  {
+    "doc_id": "DOC-INV-017",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-017.png"
+  },
+  {
+    "doc_id": "DOC-INV-018",
+    "doc_type": "invoice",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-INV-018.png"
+  },
+  {
+    "doc_id": "DOC-INV-019",
+    "doc_type": "invoice",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-INV-019.png"
+  },
+  {
+    "doc_id": "DOC-INV-020",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-020.png"
+  },
+  {
+    "doc_id": "DOC-INV-021",
+    "doc_type": "invoice",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-INV-021.png"
+  },
+  {
+    "doc_id": "DOC-INV-022",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-022.png"
+  },
+  {
+    "doc_id": "DOC-INV-023",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-023.png"
+  },
+  {
+    "doc_id": "DOC-INV-024",
+    "doc_type": "invoice",
+    "quality_profile": "handwritten_field",
+    "raw_image_path": "documents/images/DOC-INV-024.png"
+  },
+  {
+    "doc_id": "DOC-INV-025",
+    "doc_type": "invoice",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-INV-025.png"
+  },
+  {
+    "doc_id": "DOC-INV-026",
+    "doc_type": "invoice",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-INV-026.png"
+  },
+  {
+    "doc_id": "DOC-INV-027",
+    "doc_type": "invoice",
+    "quality_profile": "handwritten_field",
+    "raw_image_path": "documents/images/DOC-INV-027.png"
+  },
+  {
+    "doc_id": "DOC-INV-028",
+    "doc_type": "invoice",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-INV-028.png"
+  },
+  {
+    "doc_id": "DOC-INV-029",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-029.png"
+  },
+  {
+    "doc_id": "DOC-INV-030",
+    "doc_type": "invoice",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-INV-030.png"
+  },
+  {
+    "doc_id": "DOC-INV-031",
+    "doc_type": "invoice",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-INV-031.png"
+  },
+  {
+    "doc_id": "DOC-INV-032",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-032.png"
+  },
+  {
+    "doc_id": "DOC-INV-033",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-033.png"
+  },
+  {
+    "doc_id": "DOC-INV-034",
+    "doc_type": "invoice",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-INV-034.png"
+  },
+  {
+    "doc_id": "DOC-INV-035",
+    "doc_type": "invoice",
+    "quality_profile": "invalid_corrupt",
+    "raw_image_path": "documents/images/DOC-INV-035.png"
+  },
+  {
+    "doc_id": "DOC-CLM-001",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-001.png"
+  },
+  {
+    "doc_id": "DOC-CLM-002",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-002.png"
+  },
+  {
+    "doc_id": "DOC-CLM-003",
+    "doc_type": "claim",
+    "quality_profile": "handwritten_field",
+    "raw_image_path": "documents/images/DOC-CLM-003.png"
+  },
+  {
+    "doc_id": "DOC-CLM-004",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-004.png"
+  },
+  {
+    "doc_id": "DOC-CLM-005",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-005.png"
+  },
+  {
+    "doc_id": "DOC-CLM-006",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-006.png"
+  },
+  {
+    "doc_id": "DOC-CLM-007",
+    "doc_type": "claim",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-CLM-007.png"
+  },
+  {
+    "doc_id": "DOC-CLM-008",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-008.png"
+  },
+  {
+    "doc_id": "DOC-CLM-009",
+    "doc_type": "claim",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-CLM-009.png"
+  },
+  {
+    "doc_id": "DOC-CLM-010",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-010.png"
+  },
+  {
+    "doc_id": "DOC-CLM-011",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-011.png"
+  },
+  {
+    "doc_id": "DOC-CLM-012",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-012.png"
+  },
+  {
+    "doc_id": "DOC-CLM-013",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-013.png"
+  },
+  {
+    "doc_id": "DOC-CLM-014",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-014.png"
+  },
+  {
+    "doc_id": "DOC-CLM-015",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-015.png"
+  },
+  {
+    "doc_id": "DOC-CLM-016",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-016.png"
+  },
+  {
+    "doc_id": "DOC-CLM-017",
+    "doc_type": "claim",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-CLM-017.png"
+  },
+  {
+    "doc_id": "DOC-CLM-018",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-018.png"
+  },
+  {
+    "doc_id": "DOC-CLM-019",
+    "doc_type": "claim",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-CLM-019.png"
+  },
+  {
+    "doc_id": "DOC-CLM-020",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-020.png"
+  },
+  {
+    "doc_id": "DOC-CLM-021",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-021.png"
+  },
+  {
+    "doc_id": "DOC-CLM-022",
+    "doc_type": "claim",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-CLM-022.png"
+  },
+  {
+    "doc_id": "DOC-CLM-023",
+    "doc_type": "claim",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-CLM-023.png"
+  },
+  {
+    "doc_id": "DOC-CLM-024",
+    "doc_type": "claim",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-CLM-024.png"
+  },
+  {
+    "doc_id": "DOC-CLM-025",
+    "doc_type": "claim",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-CLM-025.png"
+  },
+  {
+    "doc_id": "DOC-CLM-026",
+    "doc_type": "claim",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-CLM-026.png"
+  },
+  {
+    "doc_id": "DOC-CLM-027",
+    "doc_type": "claim",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-CLM-027.png"
+  },
+  {
+    "doc_id": "DOC-CLM-028",
+    "doc_type": "claim",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-CLM-028.png"
+  },
+  {
+    "doc_id": "DOC-CLM-029",
+    "doc_type": "claim",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-CLM-029.png"
+  },
+  {
+    "doc_id": "DOC-CLM-030",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-030.png"
+  },
+  {
+    "doc_id": "DOC-CLM-031",
+    "doc_type": "claim",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-CLM-031.png"
+  },
+  {
+    "doc_id": "DOC-CLM-032",
+    "doc_type": "claim",
+    "quality_profile": "handwritten_field",
+    "raw_image_path": "documents/images/DOC-CLM-032.png"
+  },
+  {
+    "doc_id": "DOC-CLM-033",
+    "doc_type": "claim",
+    "quality_profile": "handwritten_field",
+    "raw_image_path": "documents/images/DOC-CLM-033.png"
+  },
+  {
+    "doc_id": "DOC-CLM-034",
+    "doc_type": "claim",
+    "quality_profile": "handwritten_field",
+    "raw_image_path": "documents/images/DOC-CLM-034.png"
+  },
+  {
+    "doc_id": "DOC-CLM-035",
+    "doc_type": "claim",
+    "quality_profile": "invalid_corrupt",
+    "raw_image_path": "documents/images/DOC-CLM-035.png"
+  },
+  {
+    "doc_id": "DOC-IDC-001",
+    "doc_type": "id_card",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-IDC-001.png"
+  },
+  {
+    "doc_id": "DOC-IDC-002",
+    "doc_type": "id_card",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-IDC-002.png"
+  },
+  {
+    "doc_id": "DOC-IDC-003",
+    "doc_type": "id_card",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-IDC-003.png"
+  },
+  {
+    "doc_id": "DOC-IDC-004",
+    "doc_type": "id_card",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-IDC-004.png"
+  },
+  {
+    "doc_id": "DOC-IDC-005",
+    "doc_type": "id_card",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-IDC-005.png"
+  },
+  {
+    "doc_id": "DOC-IDC-006",
+    "doc_type": "id_card",
+    "quality_profile": "handwritten_field",
+    "raw_image_path": "documents/images/DOC-IDC-006.png"
+  },
+  {
+    "doc_id": "DOC-IDC-007",
+    "doc_type": "id_card",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-IDC-007.png"
+  },
+  {
+    "doc_id": "DOC-IDC-008",
+    "doc_type": "id_card",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-IDC-008.png"
+  },
+  {
+    "doc_id": "DOC-IDC-009",
+    "doc_type": "id_card",
+    "quality_profile": "handwritten_field",
+    "raw_image_path": "documents/images/DOC-IDC-009.png"
+  },
+  {
+    "doc_id": "DOC-IDC-010",
+    "doc_type": "id_card",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-IDC-010.png"
+  },
+  {
+    "doc_id": "DOC-IDC-011",
+    "doc_type": "id_card",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-IDC-011.png"
+  },
+  {
+    "doc_id": "DOC-IDC-012",
+    "doc_type": "id_card",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-IDC-012.png"
+  },
+  {
+    "doc_id": "DOC-IDC-013",
+    "doc_type": "id_card",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-IDC-013.png"
+  },
+  {
+    "doc_id": "DOC-IDC-014",
+    "doc_type": "id_card",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-IDC-014.png"
+  },
+  {
+    "doc_id": "DOC-IDC-015",
+    "doc_type": "id_card",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-IDC-015.png"
+  },
+  {
+    "doc_id": "DOC-IDC-016",
+    "doc_type": "id_card",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-IDC-016.png"
+  },
+  {
+    "doc_id": "DOC-IDC-017",
+    "doc_type": "id_card",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-IDC-017.png"
+  },
+  {
+    "doc_id": "DOC-IDC-018",
+    "doc_type": "id_card",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-IDC-018.png"
+  },
+  {
+    "doc_id": "DOC-IDC-019",
+    "doc_type": "id_card",
+    "quality_profile": "handwritten_field",
+    "raw_image_path": "documents/images/DOC-IDC-019.png"
+  },
+  {
+    "doc_id": "DOC-IDC-020",
+    "doc_type": "id_card",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-IDC-020.png"
+  },
+  {
+    "doc_id": "DOC-IDC-021",
+    "doc_type": "id_card",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-IDC-021.png"
+  },
+  {
+    "doc_id": "DOC-IDC-022",
+    "doc_type": "id_card",
+    "quality_profile": "handwritten_field",
+    "raw_image_path": "documents/images/DOC-IDC-022.png"
+  },
+  {
+    "doc_id": "DOC-IDC-023",
+    "doc_type": "id_card",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-IDC-023.png"
+  },
+  {
+    "doc_id": "DOC-IDC-024",
+    "doc_type": "id_card",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-IDC-024.png"
+  },
+  {
+    "doc_id": "DOC-IDC-025",
+    "doc_type": "id_card",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-IDC-025.png"
+  },
+  {
+    "doc_id": "DOC-IDC-026",
+    "doc_type": "id_card",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-IDC-026.png"
+  },
+  {
+    "doc_id": "DOC-IDC-027",
+    "doc_type": "id_card",
+    "quality_profile": "low_res_scan",
+    "raw_image_path": "documents/images/DOC-IDC-027.png"
+  },
+  {
+    "doc_id": "DOC-IDC-028",
+    "doc_type": "id_card",
+    "quality_profile": "digital_clean",
+    "raw_image_path": "documents/images/DOC-IDC-028.png"
+  },
+  {
+    "doc_id": "DOC-IDC-029",
+    "doc_type": "id_card",
+    "quality_profile": "noisy_background",
+    "raw_image_path": "documents/images/DOC-IDC-029.png"
+  },
+  {
+    "doc_id": "DOC-IDC-030",
+    "doc_type": "id_card",
+    "quality_profile": "invalid_corrupt",
+    "raw_image_path": "documents/images/DOC-IDC-030.png"
+  }
+]

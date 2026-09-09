@@ -1,0 +1,46 @@
+{
+  "library_name": "Customer Support Prompt Registry",
+  "last_updated": "2026-09-09",
+  "prompts": [
+    {
+      "version": "v1.0",
+      "name": "Zero-Shot Baseline",
+      "file": "prompts/v1.0_zero_shot.json",
+      "strategy": "zero-shot",
+      "recorded_score": 83.28,
+      "format_compliance_rate": 100.0,
+      "average_latency_ms": 340,
+      "status": "baseline"
+    },
+    {
+      "version": "v1.1",
+      "name": "Few-Shot Support Specialist",
+      "file": "prompts/v1.1_few_shot.json",
+      "strategy": "few-shot",
+      "recorded_score": 99.36,
+      "format_compliance_rate": 100.0,
+      "average_latency_ms": 420,
+      "status": "active_winner"
+    },
+    {
+      "version": "v1.2",
+      "name": "Chain-of-Thought Reasoner",
+      "file": "prompts/v1.2_chain_of_thought.json",
+      "strategy": "chain-of-thought",
+      "recorded_score": 94.88,
+      "format_compliance_rate": 100.0,
+      "average_latency_ms": 890,
+      "status": "active"
+    },
+    {
+      "version": "v1.3",
+      "name": "Structured JSON Template Agent",
+      "file": "prompts/v1.3_structured_template.json",
+      "strategy": "structured-template",
+      "recorded_score": 94.72,
+      "format_compliance_rate": 100.0,
+      "average_latency_ms": 510,
+      "status": "active"
+    }
+  ]
+}

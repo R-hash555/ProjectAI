@@ -1,0 +1,92 @@
+[
+  {
+    "task_id": "TASK-01",
+    "category": "Boilerplate",
+    "unassisted_time_min": 25,
+    "ai_generation_time_min": 2,
+    "ai_review_time_min": 4,
+    "ai_correction_time_min": 3,
+    "total_assisted_time_min": 9
+  },
+  {
+    "task_id": "TASK-02",
+    "category": "Algorithm",
+    "unassisted_time_min": 45,
+    "ai_generation_time_min": 3,
+    "ai_review_time_min": 10,
+    "ai_correction_time_min": 15,
+    "total_assisted_time_min": 28
+  },
+  {
+    "task_id": "TASK-03",
+    "category": "Refactoring",
+    "unassisted_time_min": 35,
+    "ai_generation_time_min": 2,
+    "ai_review_time_min": 5,
+    "ai_correction_time_min": 0,
+    "total_assisted_time_min": 7
+  },
+  {
+    "task_id": "TASK-04",
+    "category": "Test Writing",
+    "unassisted_time_min": 30,
+    "ai_generation_time_min": 2,
+    "ai_review_time_min": 6,
+    "ai_correction_time_min": 5,
+    "total_assisted_time_min": 13
+  },
+  {
+    "task_id": "TASK-05",
+    "category": "Debugging",
+    "unassisted_time_min": 50,
+    "ai_generation_time_min": 3,
+    "ai_review_time_min": 12,
+    "ai_correction_time_min": 20,
+    "total_assisted_time_min": 35
+  },
+  {
+    "task_id": "TASK-06",
+    "category": "Integration",
+    "unassisted_time_min": 40,
+    "ai_generation_time_min": 3,
+    "ai_review_time_min": 6,
+    "ai_correction_time_min": 0,
+    "total_assisted_time_min": 9
+  },
+  {
+    "task_id": "TASK-07",
+    "category": "Boilerplate",
+    "unassisted_time_min": 20,
+    "ai_generation_time_min": 1,
+    "ai_review_time_min": 5,
+    "ai_correction_time_min": 8,
+    "total_assisted_time_min": 14
+  },
+  {
+    "task_id": "TASK-08",
+    "category": "Algorithm",
+    "unassisted_time_min": 60,
+    "ai_generation_time_min": 4,
+    "ai_review_time_min": 8,
+    "ai_correction_time_min": 0,
+    "total_assisted_time_min": 12
+  },
+  {
+    "task_id": "TASK-09",
+    "category": "Refactoring",
+    "unassisted_time_min": 30,
+    "ai_generation_time_min": 2,
+    "ai_review_time_min": 4,
+    "ai_correction_time_min": 0,
+    "total_assisted_time_min": 6
+  },
+  {
+    "task_id": "TASK-10",
+    "category": "Debugging",
+    "unassisted_time_min": 45,
+    "ai_generation_time_min": 3,
+    "ai_review_time_min": 10,
+    "ai_correction_time_min": 15,
+    "total_assisted_time_min": 28
+  }
+]

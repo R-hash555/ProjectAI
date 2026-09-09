@@ -1,0 +1,34 @@
+{
+  "failure_catalog_name": "Customer Support Prompt Failure Taxonomy",
+  "version": "1.0",
+  "categories": [
+    {
+      "failure_type": "Hallucination & Out-of-Scope Compliance",
+      "description": "Model attempts to answer out-of-scope or unanswerable queries (e.g. generating Python code, giving stock advice) instead of enforcing boundary rules.",
+      "most_vulnerable_prompts": ["v1.0 Zero-Shot"],
+      "observed_rate": "20% in Zero-Shot, reduced to 0% in Few-Shot and CoT",
+      "mitigation": "Include explicit negative exemplars (Few-Shot) and role boundary guardrails in system prompt."
+    },
+    {
+      "failure_type": "Format Breaking & Schema Violation",
+      "description": "Model wraps JSON output in conversational markdown fluff or omits mandatory JSON keys.",
+      "most_vulnerable_prompts": ["v1.3 Structured Template"],
+      "observed_rate": "6% in Structured Template under ambiguous inputs",
+      "mitigation": "Enforce strict schema parameters (e.g. JSON mode / response_format) at the API level or add pre-parse extraction regex."
+    },
+    {
+      "failure_type": "Instruction Drift Under De-escalation",
+      "description": "When faced with hostile or manipulative user inputs, model drops formal persona or admits liability.",
+      "most_vulnerable_prompts": ["v1.0 Zero-Shot"],
+      "observed_rate": "15% under hostile/angry inputs",
+      "mitigation": "Use Chain-of-Thought reasoning steps to analyze tone and intent before output generation."
+    },
+    {
+      "failure_type": "Ambiguity Truncation",
+      "description": "Model assumes missing user details rather than asking clarifying questions.",
+      "most_vulnerable_prompts": ["v1.0 Zero-Shot", "v1.1 Few-Shot"],
+      "observed_rate": "10% across zero-shot and few-shot",
+      "mitigation": "Explicit rule: 'If query contains fewer than 5 words or lacks context, politely request details.'"
+    }
+  ]
+}

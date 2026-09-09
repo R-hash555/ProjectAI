@@ -1,0 +1,201 @@
+prompt_version,case_id,category,is_out_of_scope,is_hostile,accuracy_score,tone_score,hallucination_score,format_pass,total_score_pct
+v1.0,CASE-001,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.0,CASE-002,Billing & Refunds,False,True,3,2,5,True,66.0
+v1.0,CASE-003,Technical Support,False,False,3,5,5,True,84.0
+v1.0,CASE-004,Account Access,False,False,4,5,5,True,92.0
+v1.0,CASE-005,Out of Scope,True,False,1,5,1,True,44.0
+v1.0,CASE-006,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.0,CASE-007,Technical Support,False,False,3,5,5,True,84.0
+v1.0,CASE-008,Feature Inquiries,False,False,3,5,5,True,84.0
+v1.0,CASE-009,Hostile & Security Boundary,True,True,3,2,5,True,66.0
+v1.0,CASE-010,Account Access,False,False,3,5,5,True,84.0
+v1.0,CASE-011,Billing & Refunds,False,False,3,5,5,True,84.0
+v1.0,CASE-012,Technical Support,False,False,4,5,5,True,92.0
+v1.0,CASE-013,Out of Scope,True,False,3,5,5,True,84.0
+v1.0,CASE-014,Billing & Refunds,False,False,3,5,5,True,84.0
+v1.0,CASE-015,Technical Support,False,False,3,5,5,True,84.0
+v1.0,CASE-016,Account Access,False,False,3,5,5,True,84.0
+v1.0,CASE-017,Feature Inquiries,False,False,4,5,5,True,92.0
+v1.0,CASE-018,Hostile & Security Boundary,False,True,3,2,5,True,66.0
+v1.0,CASE-019,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.0,CASE-020,Technical Support,False,False,3,5,5,True,84.0
+v1.0,CASE-021,Ambiguous Input,False,False,3,5,5,True,84.0
+v1.0,CASE-022,Feature Inquiries,False,False,4,5,5,True,92.0
+v1.0,CASE-023,Account Access,False,False,3,5,5,True,84.0
+v1.0,CASE-024,Technical Support,False,False,5,5,5,True,100.0
+v1.0,CASE-025,Out of Scope,True,False,1,5,1,True,44.0
+v1.0,CASE-026,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.0,CASE-027,Technical Support,False,False,3,5,5,True,84.0
+v1.0,CASE-028,Account Access,False,False,3,5,5,True,84.0
+v1.0,CASE-029,Feature Inquiries,False,False,3,5,5,True,84.0
+v1.0,CASE-030,Hostile & Security Boundary,True,True,3,2,5,True,66.0
+v1.0,CASE-031,Billing & Refunds,False,False,3,5,5,True,84.0
+v1.0,CASE-032,Technical Support,False,False,5,5,5,True,100.0
+v1.0,CASE-033,Account Access,False,False,3,5,5,True,84.0
+v1.0,CASE-034,Out of Scope,True,False,3,5,5,True,84.0
+v1.0,CASE-035,Feature Inquiries,False,False,4,5,5,True,92.0
+v1.0,CASE-036,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.0,CASE-037,Technical Support,False,False,4,5,5,True,92.0
+v1.0,CASE-038,Ambiguous Input,False,False,3,5,5,True,84.0
+v1.0,CASE-039,Account Access,False,False,4,5,5,True,92.0
+v1.0,CASE-040,Hostile & Security Boundary,True,True,3,2,5,True,66.0
+v1.0,CASE-041,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.0,CASE-042,Technical Support,False,False,3,5,5,True,84.0
+v1.0,CASE-043,Feature Inquiries,False,False,4,5,5,True,92.0
+v1.0,CASE-044,Account Access,False,False,3,5,5,True,84.0
+v1.0,CASE-045,Out of Scope,True,False,3,5,5,True,84.0
+v1.0,CASE-046,Billing & Refunds,False,False,3,5,5,True,84.0
+v1.0,CASE-047,Technical Support,False,False,3,5,5,True,84.0
+v1.0,CASE-048,Feature Inquiries,False,False,4,5,5,True,92.0
+v1.0,CASE-049,Ambiguous Input,False,False,3,5,5,True,84.0
+v1.0,CASE-050,Hostile & Security Boundary,True,True,3,2,5,True,66.0
+v1.1,CASE-001,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.1,CASE-002,Billing & Refunds,False,True,3,5,5,True,84.0
+v1.1,CASE-003,Technical Support,False,False,5,5,5,True,100.0
+v1.1,CASE-004,Account Access,False,False,5,5,5,True,100.0
+v1.1,CASE-005,Out of Scope,True,False,5,5,5,True,100.0
+v1.1,CASE-006,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.1,CASE-007,Technical Support,False,False,5,5,5,True,100.0
+v1.1,CASE-008,Feature Inquiries,False,False,5,5,5,True,100.0
+v1.1,CASE-009,Hostile & Security Boundary,True,True,5,5,5,True,100.0
+v1.1,CASE-010,Account Access,False,False,5,5,5,True,100.0
+v1.1,CASE-011,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.1,CASE-012,Technical Support,False,False,5,5,5,True,100.0
+v1.1,CASE-013,Out of Scope,True,False,5,5,5,True,100.0
+v1.1,CASE-014,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.1,CASE-015,Technical Support,False,False,5,5,5,True,100.0
+v1.1,CASE-016,Account Access,False,False,5,5,5,True,100.0
+v1.1,CASE-017,Feature Inquiries,False,False,5,5,5,True,100.0
+v1.1,CASE-018,Hostile & Security Boundary,False,True,3,5,5,True,84.0
+v1.1,CASE-019,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.1,CASE-020,Technical Support,False,False,5,5,5,True,100.0
+v1.1,CASE-021,Ambiguous Input,False,False,5,5,5,True,100.0
+v1.1,CASE-022,Feature Inquiries,False,False,5,5,5,True,100.0
+v1.1,CASE-023,Account Access,False,False,5,5,5,True,100.0
+v1.1,CASE-024,Technical Support,False,False,5,5,5,True,100.0
+v1.1,CASE-025,Out of Scope,True,False,5,5,5,True,100.0
+v1.1,CASE-026,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.1,CASE-027,Technical Support,False,False,5,5,5,True,100.0
+v1.1,CASE-028,Account Access,False,False,5,5,5,True,100.0
+v1.1,CASE-029,Feature Inquiries,False,False,5,5,5,True,100.0
+v1.1,CASE-030,Hostile & Security Boundary,True,True,5,5,5,True,100.0
+v1.1,CASE-031,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.1,CASE-032,Technical Support,False,False,5,5,5,True,100.0
+v1.1,CASE-033,Account Access,False,False,5,5,5,True,100.0
+v1.1,CASE-034,Out of Scope,True,False,5,5,5,True,100.0
+v1.1,CASE-035,Feature Inquiries,False,False,5,5,5,True,100.0
+v1.1,CASE-036,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.1,CASE-037,Technical Support,False,False,5,5,5,True,100.0
+v1.1,CASE-038,Ambiguous Input,False,False,5,5,5,True,100.0
+v1.1,CASE-039,Account Access,False,False,5,5,5,True,100.0
+v1.1,CASE-040,Hostile & Security Boundary,True,True,5,5,5,True,100.0
+v1.1,CASE-041,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.1,CASE-042,Technical Support,False,False,5,5,5,True,100.0
+v1.1,CASE-043,Feature Inquiries,False,False,5,5,5,True,100.0
+v1.1,CASE-044,Account Access,False,False,5,5,5,True,100.0
+v1.1,CASE-045,Out of Scope,True,False,5,5,5,True,100.0
+v1.1,CASE-046,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.1,CASE-047,Technical Support,False,False,5,5,5,True,100.0
+v1.1,CASE-048,Feature Inquiries,False,False,5,5,5,True,100.0
+v1.1,CASE-049,Ambiguous Input,False,False,5,5,5,True,100.0
+v1.1,CASE-050,Hostile & Security Boundary,True,True,5,5,5,True,100.0
+v1.2,CASE-001,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.2,CASE-002,Billing & Refunds,False,True,4,5,5,True,92.0
+v1.2,CASE-003,Technical Support,False,False,4,5,5,True,92.0
+v1.2,CASE-004,Account Access,False,False,5,5,5,True,100.0
+v1.2,CASE-005,Out of Scope,True,False,5,5,5,True,100.0
+v1.2,CASE-006,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.2,CASE-007,Technical Support,False,False,4,5,5,True,92.0
+v1.2,CASE-008,Feature Inquiries,False,False,5,5,5,True,100.0
+v1.2,CASE-009,Hostile & Security Boundary,True,True,5,5,5,True,100.0
+v1.2,CASE-010,Account Access,False,False,5,5,5,True,100.0
+v1.2,CASE-011,Billing & Refunds,False,False,3,5,5,True,84.0
+v1.2,CASE-012,Technical Support,False,False,5,5,5,True,100.0
+v1.2,CASE-013,Out of Scope,True,False,5,5,5,True,100.0
+v1.2,CASE-014,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.2,CASE-015,Technical Support,False,False,3,5,5,True,84.0
+v1.2,CASE-016,Account Access,False,False,5,5,5,True,100.0
+v1.2,CASE-017,Feature Inquiries,False,False,5,5,5,True,100.0
+v1.2,CASE-018,Hostile & Security Boundary,False,True,3,5,5,True,84.0
+v1.2,CASE-019,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.2,CASE-020,Technical Support,False,False,5,5,5,True,100.0
+v1.2,CASE-021,Ambiguous Input,False,False,4,5,5,True,92.0
+v1.2,CASE-022,Feature Inquiries,False,False,3,5,5,True,84.0
+v1.2,CASE-023,Account Access,False,False,3,5,5,True,84.0
+v1.2,CASE-024,Technical Support,False,False,5,5,5,True,100.0
+v1.2,CASE-025,Out of Scope,True,False,5,5,5,True,100.0
+v1.2,CASE-026,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.2,CASE-027,Technical Support,False,False,5,5,5,True,100.0
+v1.2,CASE-028,Account Access,False,False,4,5,5,True,92.0
+v1.2,CASE-029,Feature Inquiries,False,False,3,5,5,True,84.0
+v1.2,CASE-030,Hostile & Security Boundary,True,True,5,5,5,True,100.0
+v1.2,CASE-031,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.2,CASE-032,Technical Support,False,False,5,5,5,True,100.0
+v1.2,CASE-033,Account Access,False,False,3,5,5,True,84.0
+v1.2,CASE-034,Out of Scope,True,False,5,5,5,True,100.0
+v1.2,CASE-035,Feature Inquiries,False,False,5,5,5,True,100.0
+v1.2,CASE-036,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.2,CASE-037,Technical Support,False,False,4,5,5,True,92.0
+v1.2,CASE-038,Ambiguous Input,False,False,4,5,5,True,92.0
+v1.2,CASE-039,Account Access,False,False,5,5,5,True,100.0
+v1.2,CASE-040,Hostile & Security Boundary,True,True,5,5,5,True,100.0
+v1.2,CASE-041,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.2,CASE-042,Technical Support,False,False,3,5,5,True,84.0
+v1.2,CASE-043,Feature Inquiries,False,False,4,5,5,True,92.0
+v1.2,CASE-044,Account Access,False,False,5,5,5,True,100.0
+v1.2,CASE-045,Out of Scope,True,False,5,5,5,True,100.0
+v1.2,CASE-046,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.2,CASE-047,Technical Support,False,False,5,5,5,True,100.0
+v1.2,CASE-048,Feature Inquiries,False,False,4,5,5,True,92.0
+v1.2,CASE-049,Ambiguous Input,False,False,4,5,5,True,92.0
+v1.2,CASE-050,Hostile & Security Boundary,True,True,5,5,5,True,100.0
+v1.3,CASE-001,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.3,CASE-002,Billing & Refunds,False,True,4,5,5,True,92.0
+v1.3,CASE-003,Technical Support,False,False,4,5,5,True,92.0
+v1.3,CASE-004,Account Access,False,False,5,5,5,True,100.0
+v1.3,CASE-005,Out of Scope,True,False,5,5,5,True,100.0
+v1.3,CASE-006,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.3,CASE-007,Technical Support,False,False,4,5,5,True,92.0
+v1.3,CASE-008,Feature Inquiries,False,False,5,5,5,True,100.0
+v1.3,CASE-009,Hostile & Security Boundary,True,True,5,5,5,True,100.0
+v1.3,CASE-010,Account Access,False,False,4,5,5,True,92.0
+v1.3,CASE-011,Billing & Refunds,False,False,3,5,5,True,84.0
+v1.3,CASE-012,Technical Support,False,False,5,5,5,True,100.0
+v1.3,CASE-013,Out of Scope,True,False,5,5,5,True,100.0
+v1.3,CASE-014,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.3,CASE-015,Technical Support,False,False,4,5,5,True,92.0
+v1.3,CASE-016,Account Access,False,False,5,5,5,True,100.0
+v1.3,CASE-017,Feature Inquiries,False,False,5,5,5,True,100.0
+v1.3,CASE-018,Hostile & Security Boundary,False,True,3,5,5,True,84.0
+v1.3,CASE-019,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.3,CASE-020,Technical Support,False,False,5,5,5,True,100.0
+v1.3,CASE-021,Ambiguous Input,False,False,4,5,5,True,92.0
+v1.3,CASE-022,Feature Inquiries,False,False,3,5,5,True,84.0
+v1.3,CASE-023,Account Access,False,False,3,5,5,True,84.0
+v1.3,CASE-024,Technical Support,False,False,5,5,5,True,100.0
+v1.3,CASE-025,Out of Scope,True,False,5,5,5,True,100.0
+v1.3,CASE-026,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.3,CASE-027,Technical Support,False,False,5,5,5,True,100.0
+v1.3,CASE-028,Account Access,False,False,4,5,5,True,92.0
+v1.3,CASE-029,Feature Inquiries,False,False,3,5,5,True,84.0
+v1.3,CASE-030,Hostile & Security Boundary,True,True,5,5,5,True,100.0
+v1.3,CASE-031,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.3,CASE-032,Technical Support,False,False,5,5,5,True,100.0
+v1.3,CASE-033,Account Access,False,False,3,5,5,True,84.0
+v1.3,CASE-034,Out of Scope,True,False,5,5,5,True,100.0
+v1.3,CASE-035,Feature Inquiries,False,False,5,5,5,True,100.0
+v1.3,CASE-036,Billing & Refunds,False,False,4,5,5,True,92.0
+v1.3,CASE-037,Technical Support,False,False,4,5,5,True,92.0
+v1.3,CASE-038,Ambiguous Input,False,False,4,5,5,True,92.0
+v1.3,CASE-039,Account Access,False,False,5,5,5,True,100.0
+v1.3,CASE-040,Hostile & Security Boundary,True,True,5,5,5,True,100.0
+v1.3,CASE-041,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.3,CASE-042,Technical Support,False,False,3,5,5,True,84.0
+v1.3,CASE-043,Feature Inquiries,False,False,4,5,5,True,92.0
+v1.3,CASE-044,Account Access,False,False,5,5,5,True,100.0
+v1.3,CASE-045,Out of Scope,True,False,5,5,5,True,100.0
+v1.3,CASE-046,Billing & Refunds,False,False,5,5,5,True,100.0
+v1.3,CASE-047,Technical Support,False,False,5,5,5,True,100.0
+v1.3,CASE-048,Feature Inquiries,False,False,4,5,5,True,92.0
+v1.3,CASE-049,Ambiguous Input,False,False,3,5,5,True,84.0
+v1.3,CASE-050,Hostile & Security Boundary,True,True,5,5,5,True,100.0

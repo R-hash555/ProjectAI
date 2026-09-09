@@ -1,0 +1,72 @@
+[
+  {
+    "task_id": "TASK-01",
+    "category": "Boilerplate",
+    "title": "REST API User Endpoint & Validation Middleware",
+    "description": "Create a RESTful CRUD router for user management with payload validation and error handling.",
+    "complexity": "Low"
+  },
+  {
+    "task_id": "TASK-02",
+    "category": "Algorithm",
+    "title": "LRU Cache with Time-To-Live (TTL) & Eviction",
+    "description": "Implement a thread-safe LRU Cache supporting maximum capacity limits, key expiration TTLs, and dynamic access eviction.",
+    "complexity": "Medium"
+  },
+  {
+    "task_id": "TASK-03",
+    "category": "Refactoring",
+    "title": "Converting Nested Callback Spaghetti to Async Pipeline",
+    "description": "Refactor legacy multi-nested callback database/API queries into a clean async/await pipeline with unified error handling.",
+    "complexity": "Medium"
+  },
+  {
+    "task_id": "TASK-04",
+    "category": "Test Writing",
+    "title": "Unit Test Suite for Payment Processing Engine",
+    "description": "Write comprehensive unit tests covering edge cases (insufficient funds, currency conversions, network timeouts) for payment gateway.",
+    "complexity": "Medium"
+  },
+  {
+    "task_id": "TASK-05",
+    "category": "Debugging",
+    "title": "Fixing Race Condition in Shared Thread Pool",
+    "description": "Identify and fix a subtle race condition in a multi-threaded worker pool where concurrent status updates drop task completion counts.",
+    "complexity": "High"
+  },
+  {
+    "task_id": "TASK-06",
+    "category": "Integration",
+    "title": "OAuth2 Bearer Token Refresher & Request Interceptor",
+    "description": "Build an HTTP client interceptor that automatically detects 401 unauthorized responses, refreshes OAuth2 tokens, and retries original requests.",
+    "complexity": "Medium"
+  },
+  {
+    "task_id": "TASK-07",
+    "category": "Boilerplate",
+    "title": "Database Data Access Object (DAO) Repository",
+    "description": "Create generic CRUD repository pattern implementation for SQL database entities with parameterized queries.",
+    "complexity": "Low"
+  },
+  {
+    "task_id": "TASK-08",
+    "category": "Algorithm",
+    "title": "Dynamic Weighted Graph Shortest Path Router",
+    "description": "Implement Dijkstra's shortest path algorithm with dynamic edge weights and path cost constraints.",
+    "complexity": "High"
+  },
+  {
+    "task_id": "TASK-09",
+    "category": "Refactoring",
+    "title": "Decoupling Monolithic Config into DI Service Container",
+    "description": "Refactor global mutable singleton configuration object into modular Dependency Injection (DI) providers.",
+    "complexity": "Medium"
+  },
+  {
+    "task_id": "TASK-10",
+    "category": "Debugging",
+    "title": "Fixing Memory Leak in Event Bus Subscriber Registry",
+    "description": "Locate and resolve a memory leak where event subscribers retain strong references to detached DOM/object listeners.",
+    "complexity": "High"
+  }
+]

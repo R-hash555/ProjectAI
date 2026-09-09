@@ -1,0 +1,11 @@
+task_id,category,complexity,unassisted_min,ai_generation_min,ai_review_min,ai_correction_min,total_assisted_min,speedup_multiplier,lines_generated,lines_kept,acceptance_rate_pct,baseline_pass,raw_ai_pass,defect_category
+TASK-01,Boilerplate,Low,25,2,4,3,9,2.78,18,14,77.8,True,False,Edge Case Omission
+TASK-02,Algorithm,Medium,45,3,10,15,28,1.61,30,18,60.0,True,False,Concurrency & Logic
+TASK-03,Refactoring,Medium,35,2,5,0,7,5.0,15,15,100.0,True,True,None
+TASK-04,Test Writing,Medium,30,2,6,5,13,2.31,12,11,91.7,True,False,Logic / Precision
+TASK-05,Debugging,High,50,3,12,20,35,1.43,10,5,50.0,True,False,Concurrency
+TASK-06,Integration,Medium,40,3,6,0,9,4.44,20,20,100.0,True,True,None
+TASK-07,Boilerplate,Low,20,1,5,8,14,1.43,10,6,60.0,True,False,Security Vulnerability
+TASK-08,Algorithm,High,60,4,8,0,12,5.0,25,25,100.0,True,True,None
+TASK-09,Refactoring,Medium,30,2,4,0,6,5.0,18,18,100.0,True,True,None
+TASK-10,Debugging,High,45,3,10,15,28,1.61,16,10,62.5,True,False,Resource Management

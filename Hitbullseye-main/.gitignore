@@ -1,0 +1,16 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+
+# OS / IDE Artifacts
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,87 @@
+{
+  "net_productivity": {
+    "unassisted_time_min": 380,
+    "ai_generation_time_min": 25,
+    "ai_review_time_min": 70,
+    "ai_correction_time_min": 66,
+    "total_assisted_min": 161,
+    "net_speedup_multiplier": 2.36,
+    "net_percentage_time_saved": 57.6
+  },
+  "acceptance_metrics": {
+    "total_lines_generated": 174,
+    "total_lines_kept": 142,
+    "total_lines_modified": 32,
+    "overall_acceptance_rate_pct": 81.6
+  },
+  "category_breakdown": {
+    "Boilerplate": {
+      "unassisted_min": 45,
+      "assisted_min": 23,
+      "defects_found": 2,
+      "lines_generated": 28,
+      "lines_kept": 20
+    },
+    "Algorithm": {
+      "unassisted_min": 105,
+      "assisted_min": 40,
+      "defects_found": 1,
+      "lines_generated": 55,
+      "lines_kept": 43
+    },
+    "Refactoring": {
+      "unassisted_min": 65,
+      "assisted_min": 13,
+      "defects_found": 0,
+      "lines_generated": 33,
+      "lines_kept": 33
+    },
+    "Test Writing": {
+      "unassisted_min": 30,
+      "assisted_min": 13,
+      "defects_found": 1,
+      "lines_generated": 12,
+      "lines_kept": 11
+    },
+    "Debugging": {
+      "unassisted_min": 95,
+      "assisted_min": 63,
+      "defects_found": 2,
+      "lines_generated": 26,
+      "lines_kept": 15
+    },
+    "Integration": {
+      "unassisted_min": 40,
+      "assisted_min": 9,
+      "defects_found": 0,
+      "lines_generated": 20,
+      "lines_kept": 20
+    }
+  },
+  "test_results": {
+    "baseline": {
+      "TASK-01": true,
+      "TASK-02": true,
+      "TASK-03": true,
+      "TASK-04": true,
+      "TASK-05": true,
+      "TASK-06": true,
+      "TASK-07": true,
+      "TASK-08": true,
+      "TASK-09": true,
+      "TASK-10": true
+    },
+    "raw_ai_assisted": {
+      "TASK-01": false,
+      "TASK-02": false,
+      "TASK-03": true,
+      "TASK-04": false,
+      "TASK-05": false,
+      "TASK-06": true,
+      "TASK-07": false,
+      "TASK-08": true,
+      "TASK-09": true,
+      "TASK-10": false
+    }
+  }
+}

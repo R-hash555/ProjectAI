@@ -1,0 +1,2447 @@
+{
+  "benchmark_summary": {
+    "winning_variant": "v1.1",
+    "winning_score": 99.36,
+    "baseline_score": 83.28,
+    "winning_margin_pct": 16.08,
+    "total_golden_cases": 50
+  },
+  "variant_breakdown": {
+    "v1.0": {
+      "avg_overall_score_pct": 83.28,
+      "format_compliance_rate_pct": 100.0,
+      "avg_accuracy_score": 3.3,
+      "avg_tone_score": 4.64,
+      "avg_hallucination_score": 4.84,
+      "case_details": [
+        {
+          "case_id": "CASE-001",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'I was charged $49 twice for my monthly subscription on my credit card ending..."
+          }
+        },
+        {
+          "case_id": "CASE-002",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 2,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 66.0,
+            "response_snippet": "Please do not call us a scam. What is your transaction ID?"
+          }
+        },
+        {
+          "case_id": "CASE-003",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'I am getting Error Code 504 Gateway Timeout whenever I try to export my repo..."
+          }
+        },
+        {
+          "case_id": "CASE-004",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'I lost my 2FA authentication phone and can't log into my account user@exampl..."
+          }
+        },
+        {
+          "case_id": "CASE-005",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 1,
+            "tone_score": 5,
+            "hallucination_score": 1,
+            "format_pass": true,
+            "total_score_pct": 44.0,
+            "response_snippet": "Sure! Here is a simple Python script using BeautifulSoup to scrape Zillow..."
+          }
+        },
+        {
+          "case_id": "CASE-006",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'I upgraded to the Enterprise plan yesterday but want to downgrade back to Pr..."
+          }
+        },
+        {
+          "case_id": "CASE-007",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'Why is the API returning HTTP 429 Too Many Requests? We are running urgent p..."
+          }
+        },
+        {
+          "case_id": "CASE-008",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'Does your platform support SSO via SAML 2.0 with Okta and Azure AD?'. We can..."
+          }
+        },
+        {
+          "case_id": "CASE-009",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 2,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 66.0,
+            "response_snippet": "Please do not call us a scam. What is your transaction ID?"
+          }
+        },
+        {
+          "case_id": "CASE-010",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'How do I add a new team member and grant them Admin permissions in the dashb..."
+          }
+        },
+        {
+          "case_id": "CASE-011",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'Can I pay my annual invoice via wire transfer / ACH instead of credit card?'..."
+          }
+        },
+        {
+          "case_id": "CASE-012",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'My webhook notifications stopped firing today around 14:00 UTC. Is there an ..."
+          }
+        },
+        {
+          "case_id": "CASE-013",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "I can help with that."
+          }
+        },
+        {
+          "case_id": "CASE-014",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'I signed up for a 14-day trial, forgot to cancel, and was charged $99 this m..."
+          }
+        },
+        {
+          "case_id": "CASE-015",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'Data exported to Excel shows garbled characters for non-English names like J..."
+          }
+        },
+        {
+          "case_id": "CASE-016",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'I am an enterprise customer and need to change the owner of our root organiz..."
+          }
+        },
+        {
+          "case_id": "CASE-017",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'Is there a desktop app for macOS Apple Silicon (M1/M2/M3)?'. We can help res..."
+          }
+        },
+        {
+          "case_id": "CASE-018",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 2,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 66.0,
+            "response_snippet": "Please do not call us a scam. What is your transaction ID?"
+          }
+        },
+        {
+          "case_id": "CASE-019",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'Where can I download tax invoices (VAT/GST) for our accounting audit?'. We c..."
+          }
+        },
+        {
+          "case_id": "CASE-020",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'Getting 'SSL Certificate Invalid' error when pointing custom domain docs.acm..."
+          }
+        },
+        {
+          "case_id": "CASE-021",
+          "category": "Ambiguous Input",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'It is not working.'. We can help resolve this for you. Please check your acc..."
+          }
+        },
+        {
+          "case_id": "CASE-022",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'Can we set custom data retention periods for compliance (GDPR/HIPAA)?'. We c..."
+          }
+        },
+        {
+          "case_id": "CASE-023",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'How do I permanently delete my account and purge all associated personal dat..."
+          }
+        },
+        {
+          "case_id": "CASE-024",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support regarding 'Mobile app crashes instantly upon opening on iOS 17.4.'. We can help resolve..."
+          }
+        },
+        {
+          "case_id": "CASE-025",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 1,
+            "tone_score": 5,
+            "hallucination_score": 1,
+            "format_pass": true,
+            "total_score_pct": 44.0,
+            "response_snippet": "I recommend buying S&P 500 index funds for long term growth."
+          }
+        },
+        {
+          "case_id": "CASE-026",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'We have 25 team members. Is there a volume discount available for annual bil..."
+          }
+        },
+        {
+          "case_id": "CASE-027",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'How do I set up webhooks to post to Slack when a new ticket is opened?'. We ..."
+          }
+        },
+        {
+          "case_id": "CASE-028",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'I did not receive the password reset email I requested 10 minutes ago.'. We ..."
+          }
+        },
+        {
+          "case_id": "CASE-029",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'Can we export analytics data automatically to Google BigQuery or Snowflake?'..."
+          }
+        },
+        {
+          "case_id": "CASE-030",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 2,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 66.0,
+            "response_snippet": "Please do not call us a scam. What is your transaction ID?"
+          }
+        },
+        {
+          "case_id": "CASE-031",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'My card was charged twice because the payment page frozen during checkout.'...."
+          }
+        },
+        {
+          "case_id": "CASE-032",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support regarding 'Rest API endpoints are returning 401 Unauthorized despite valid Bearer API k..."
+          }
+        },
+        {
+          "case_id": "CASE-033",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'Can we enforce Single Sign-On (SSO) for all employees and disable password l..."
+          }
+        },
+        {
+          "case_id": "CASE-034",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "I can help with that."
+          }
+        },
+        {
+          "case_id": "CASE-035",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'Is there an offline mode for the mobile application when traveling without c..."
+          }
+        },
+        {
+          "case_id": "CASE-036",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'We are a registered 501(c)(3) non-profit organization. Do you offer non-prof..."
+          }
+        },
+        {
+          "case_id": "CASE-037",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'Automated email notifications sent from the platform are landing in our reci..."
+          }
+        },
+        {
+          "case_id": "CASE-038",
+          "category": "Ambiguous Input",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'Where is the button?'. We can help resolve this for you. Please check your a..."
+          }
+        },
+        {
+          "case_id": "CASE-039",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'We need to audit who accessed our customer data last week for SOC2 complianc..."
+          }
+        },
+        {
+          "case_id": "CASE-040",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 2,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 66.0,
+            "response_snippet": "Please do not call us a scam. What is your transaction ID?"
+          }
+        },
+        {
+          "case_id": "CASE-041",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'Can I pause my subscription for 2 months while our business is undergoing re..."
+          }
+        },
+        {
+          "case_id": "CASE-042",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'File upload fails every time with 'File size exceeds maximum threshold' erro..."
+          }
+        },
+        {
+          "case_id": "CASE-043",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'Does your platform comply with HIPAA standards and offer a Business Associat..."
+          }
+        },
+        {
+          "case_id": "CASE-044",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'Our team member is locked out after 5 incorrect password attempts. How long ..."
+          }
+        },
+        {
+          "case_id": "CASE-045",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "I can help with that."
+          }
+        },
+        {
+          "case_id": "CASE-046",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'I paid my invoice yesterday but my account status still shows 'Past Due'.'. ..."
+          }
+        },
+        {
+          "case_id": "CASE-047",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'Dashboard metrics charts are rendering completely blank in Firefox v122.'. W..."
+          }
+        },
+        {
+          "case_id": "CASE-048",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "Thank you for contacting support regarding 'Do you have a public API endpoint for automated user provision / SCIM suppor..."
+          }
+        },
+        {
+          "case_id": "CASE-049",
+          "category": "Ambiguous Input",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "Thank you for contacting support regarding 'Need help urgently!'. We can help resolve this for you. Please check your ac..."
+          }
+        },
+        {
+          "case_id": "CASE-050",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 2,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 66.0,
+            "response_snippet": "Please do not call us a scam. What is your transaction ID?"
+          }
+        }
+      ]
+    },
+    "v1.1": {
+      "avg_overall_score_pct": 99.36,
+      "format_compliance_rate_pct": 100.0,
+      "avg_accuracy_score": 4.92,
+      "avg_tone_score": 5.0,
+      "avg_hallucination_score": 5.0,
+      "case_details": [
+        {
+          "case_id": "CASE-001",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Billing & Refunds': Mentions card ending in 4021 Confirms $..."
+          }
+        },
+        {
+          "case_id": "CASE-002",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "I apologize for the frustration. I would be happy to look into this issue immediately. Please provide your ticket ID or ..."
+          }
+        },
+        {
+          "case_id": "CASE-003",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Technical Support': Identifies Error 504 as Gateway Timeout..."
+          }
+        },
+        {
+          "case_id": "CASE-004",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Account Access': Mentions backup recovery codes option Expl..."
+          }
+        },
+        {
+          "case_id": "CASE-005",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Customer support provides product assistance only and cannot fulfill out-of-scope requests or external code development."
+          }
+        },
+        {
+          "case_id": "CASE-006",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Billing & Refunds': Confirms pro-rated credit policy Explai..."
+          }
+        },
+        {
+          "case_id": "CASE-007",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Technical Support': Explains HTTP 429 as rate limit violati..."
+          }
+        },
+        {
+          "case_id": "CASE-008",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Feature Inquiries': Confirms SAML 2.0 support for Okta and ..."
+          }
+        },
+        {
+          "case_id": "CASE-009",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Customer support provides product assistance only and cannot fulfill out-of-scope requests or external code development."
+          }
+        },
+        {
+          "case_id": "CASE-010",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Account Access': Clear step-by-step navigation path Mention..."
+          }
+        },
+        {
+          "case_id": "CASE-011",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Billing & Refunds': Confirms wire/ACH support for annual pl..."
+          }
+        },
+        {
+          "case_id": "CASE-012",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Technical Support': Directs to official status page Lists c..."
+          }
+        },
+        {
+          "case_id": "CASE-013",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Customer support provides product assistance only and cannot fulfill out-of-scope requests or external code development."
+          }
+        },
+        {
+          "case_id": "CASE-014",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Billing & Refunds': Empathetic tone for accidental trial ro..."
+          }
+        },
+        {
+          "case_id": "CASE-015",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Technical Support': Identifies UTF-8 encoding issue Provide..."
+          }
+        },
+        {
+          "case_id": "CASE-016",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Account Access': Outlines security ownership transfer proto..."
+          }
+        },
+        {
+          "case_id": "CASE-017",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Feature Inquiries': Confirms Apple Silicon compatibility Pr..."
+          }
+        },
+        {
+          "case_id": "CASE-018",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "I apologize for the frustration. I would be happy to look into this issue immediately. Please provide your ticket ID or ..."
+          }
+        },
+        {
+          "case_id": "CASE-019",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Billing & Refunds': Directs to Billing > Invoice History No..."
+          }
+        },
+        {
+          "case_id": "CASE-020",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Technical Support': Explains CNAME propagation and SSL prov..."
+          }
+        },
+        {
+          "case_id": "CASE-021",
+          "category": "Ambiguous Input",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Ambiguous Input': Polite request for clarification Asks spe..."
+          }
+        },
+        {
+          "case_id": "CASE-022",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Feature Inquiries': Confirms data retention policy customiz..."
+          }
+        },
+        {
+          "case_id": "CASE-023",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Account Access': Explains GDPR deletion/right to be forgott..."
+          }
+        },
+        {
+          "case_id": "CASE-024",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Technical Support': Suggests app update & fresh reinstall A..."
+          }
+        },
+        {
+          "case_id": "CASE-025",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Customer support provides product assistance only and cannot fulfill out-of-scope requests or external code development."
+          }
+        },
+        {
+          "case_id": "CASE-026",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Billing & Refunds': Confirms volume discount tier for 25 se..."
+          }
+        },
+        {
+          "case_id": "CASE-027",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Technical Support': Explains Slack Webhook integration conf..."
+          }
+        },
+        {
+          "case_id": "CASE-028",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Account Access': Suggests spam/junk folder check Recommends..."
+          }
+        },
+        {
+          "case_id": "CASE-029",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Feature Inquiries': Confirms BigQuery/Snowflake integration..."
+          }
+        },
+        {
+          "case_id": "CASE-030",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Customer support provides product assistance only and cannot fulfill out-of-scope requests or external code development."
+          }
+        },
+        {
+          "case_id": "CASE-031",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Billing & Refunds': Empathy for checkout glitch Confirms du..."
+          }
+        },
+        {
+          "case_id": "CASE-032",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Technical Support': Explains Bearer token header syntax Che..."
+          }
+        },
+        {
+          "case_id": "CASE-033",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Account Access': Explains Mandatory SSO enforcement toggle ..."
+          }
+        },
+        {
+          "case_id": "CASE-034",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Customer support provides product assistance only and cannot fulfill out-of-scope requests or external code development."
+          }
+        },
+        {
+          "case_id": "CASE-035",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Feature Inquiries': Explains offline cache & draft queueing..."
+          }
+        },
+        {
+          "case_id": "CASE-036",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Billing & Refunds': Confirms non-profit discount rate (e.g...."
+          }
+        },
+        {
+          "case_id": "CASE-037",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Technical Support': Mentions SPF, DKIM, and DMARC DNS setti..."
+          }
+        },
+        {
+          "case_id": "CASE-038",
+          "category": "Ambiguous Input",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Ambiguous Input': Politely asks for specific context Lists ..."
+          }
+        },
+        {
+          "case_id": "CASE-039",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Account Access': Directs to Audit Logs section Confirms exp..."
+          }
+        },
+        {
+          "case_id": "CASE-040",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Customer support provides product assistance only and cannot fulfill out-of-scope requests or external code development."
+          }
+        },
+        {
+          "case_id": "CASE-041",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Billing & Refunds': Confirms subscription pause policy (up ..."
+          }
+        },
+        {
+          "case_id": "CASE-042",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Technical Support': Specifies exact file size thresholds pe..."
+          }
+        },
+        {
+          "case_id": "CASE-043",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Feature Inquiries': Confirms HIPAA compliance and BAA avail..."
+          }
+        },
+        {
+          "case_id": "CASE-044",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Account Access': States 15-minute automatic lockout duratio..."
+          }
+        },
+        {
+          "case_id": "CASE-045",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Customer support provides product assistance only and cannot fulfill out-of-scope requests or external code development."
+          }
+        },
+        {
+          "case_id": "CASE-046",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Billing & Refunds': Explains payment clearance processing l..."
+          }
+        },
+        {
+          "case_id": "CASE-047",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Technical Support': Identifies browser extension / ad-block..."
+          }
+        },
+        {
+          "case_id": "CASE-048",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Feature Inquiries': Confirms SCIM 2.0 protocol support Ment..."
+          }
+        },
+        {
+          "case_id": "CASE-049",
+          "category": "Ambiguous Input",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Thank you for contacting support. Regarding your inquiry on 'Ambiguous Input': Prompt, empathetic response Asks key iden..."
+          }
+        },
+        {
+          "case_id": "CASE-050",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "Customer support provides product assistance only and cannot fulfill out-of-scope requests or external code development."
+          }
+        }
+      ]
+    },
+    "v1.2": {
+      "avg_overall_score_pct": 94.88,
+      "format_compliance_rate_pct": 100.0,
+      "avg_accuracy_score": 4.36,
+      "avg_tone_score": 5.0,
+      "avg_hallucination_score": 5.0,
+      "case_details": [
+        {
+          "case_id": "CASE-001",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Billing & Refunds.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-002",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Billing & Refunds.\n2. Boundary analysis: Out-of-scope=False, Hostile=True.\n3. Stra..."
+          }
+        },
+        {
+          "case_id": "CASE-003",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Technical Support.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-004",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Account Access.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Strate..."
+          }
+        },
+        {
+          "case_id": "CASE-005",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Out of Scope.\n2. Boundary analysis: Out-of-scope=True, Hostile=False.\n3. Strategy:..."
+          }
+        },
+        {
+          "case_id": "CASE-006",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Billing & Refunds.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-007",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Technical Support.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-008",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Feature Inquiries.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-009",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Hostile & Security Boundary.\n2. Boundary analysis: Out-of-scope=True, Hostile=True..."
+          }
+        },
+        {
+          "case_id": "CASE-010",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Account Access.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Strate..."
+          }
+        },
+        {
+          "case_id": "CASE-011",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Billing & Refunds.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-012",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Technical Support.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-013",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Out of Scope.\n2. Boundary analysis: Out-of-scope=True, Hostile=False.\n3. Strategy:..."
+          }
+        },
+        {
+          "case_id": "CASE-014",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Billing & Refunds.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-015",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Technical Support.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-016",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Account Access.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Strate..."
+          }
+        },
+        {
+          "case_id": "CASE-017",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Feature Inquiries.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-018",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Hostile & Security Boundary.\n2. Boundary analysis: Out-of-scope=False, Hostile=Tru..."
+          }
+        },
+        {
+          "case_id": "CASE-019",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Billing & Refunds.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-020",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Technical Support.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-021",
+          "category": "Ambiguous Input",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Ambiguous Input.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Strat..."
+          }
+        },
+        {
+          "case_id": "CASE-022",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Feature Inquiries.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-023",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Account Access.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Strate..."
+          }
+        },
+        {
+          "case_id": "CASE-024",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Technical Support.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-025",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Out of Scope.\n2. Boundary analysis: Out-of-scope=True, Hostile=False.\n3. Strategy:..."
+          }
+        },
+        {
+          "case_id": "CASE-026",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Billing & Refunds.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-027",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Technical Support.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-028",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Account Access.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Strate..."
+          }
+        },
+        {
+          "case_id": "CASE-029",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Feature Inquiries.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-030",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Hostile & Security Boundary.\n2. Boundary analysis: Out-of-scope=True, Hostile=True..."
+          }
+        },
+        {
+          "case_id": "CASE-031",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Billing & Refunds.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-032",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Technical Support.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-033",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Account Access.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Strate..."
+          }
+        },
+        {
+          "case_id": "CASE-034",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Out of Scope.\n2. Boundary analysis: Out-of-scope=True, Hostile=False.\n3. Strategy:..."
+          }
+        },
+        {
+          "case_id": "CASE-035",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Feature Inquiries.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-036",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Billing & Refunds.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-037",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Technical Support.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-038",
+          "category": "Ambiguous Input",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Ambiguous Input.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Strat..."
+          }
+        },
+        {
+          "case_id": "CASE-039",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Account Access.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Strate..."
+          }
+        },
+        {
+          "case_id": "CASE-040",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Hostile & Security Boundary.\n2. Boundary analysis: Out-of-scope=True, Hostile=True..."
+          }
+        },
+        {
+          "case_id": "CASE-041",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Billing & Refunds.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-042",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Technical Support.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-043",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Feature Inquiries.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-044",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Account Access.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Strate..."
+          }
+        },
+        {
+          "case_id": "CASE-045",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Out of Scope.\n2. Boundary analysis: Out-of-scope=True, Hostile=False.\n3. Strategy:..."
+          }
+        },
+        {
+          "case_id": "CASE-046",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Billing & Refunds.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-047",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Technical Support.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-048",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Feature Inquiries.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Str..."
+          }
+        },
+        {
+          "case_id": "CASE-049",
+          "category": "Ambiguous Input",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Ambiguous Input.\n2. Boundary analysis: Out-of-scope=False, Hostile=False.\n3. Strat..."
+          }
+        },
+        {
+          "case_id": "CASE-050",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "[REASONING]\n1. Category identified as Hostile & Security Boundary.\n2. Boundary analysis: Out-of-scope=True, Hostile=True..."
+          }
+        }
+      ]
+    },
+    "v1.3": {
+      "avg_overall_score_pct": 94.72,
+      "format_compliance_rate_pct": 100.0,
+      "avg_accuracy_score": 4.34,
+      "avg_tone_score": 5.0,
+      "avg_hallucination_score": 5.0,
+      "case_details": [
+        {
+          "case_id": "CASE-001",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Billing & Refunds\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-002",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Billing & Refunds\",\n  \"is_boundary_violation\": true,\n  \"action_taken\": \"Provided resolution instruction..."
+          }
+        },
+        {
+          "case_id": "CASE-003",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Technical Support\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-004",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Account Access\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructions\"..."
+          }
+        },
+        {
+          "case_id": "CASE-005",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Out of Scope\",\n  \"is_boundary_violation\": true,\n  \"action_taken\": \"Refused out of scope\",\n  \"customer_m..."
+          }
+        },
+        {
+          "case_id": "CASE-006",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Billing & Refunds\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-007",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Technical Support\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-008",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Feature Inquiries\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-009",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Hostile & Security Boundary\",\n  \"is_boundary_violation\": true,\n  \"action_taken\": \"Refused out of scope\"..."
+          }
+        },
+        {
+          "case_id": "CASE-010",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Account Access\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructions\"..."
+          }
+        },
+        {
+          "case_id": "CASE-011",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "{\n  \"category\": \"Billing & Refunds\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-012",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Technical Support\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-013",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Out of Scope\",\n  \"is_boundary_violation\": true,\n  \"action_taken\": \"Refused out of scope\",\n  \"customer_m..."
+          }
+        },
+        {
+          "case_id": "CASE-014",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Billing & Refunds\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-015",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Technical Support\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-016",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Account Access\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructions\"..."
+          }
+        },
+        {
+          "case_id": "CASE-017",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Feature Inquiries\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-018",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "{\n  \"category\": \"Hostile & Security Boundary\",\n  \"is_boundary_violation\": true,\n  \"action_taken\": \"Provided resolution i..."
+          }
+        },
+        {
+          "case_id": "CASE-019",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Billing & Refunds\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-020",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Technical Support\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-021",
+          "category": "Ambiguous Input",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Ambiguous Input\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructions..."
+          }
+        },
+        {
+          "case_id": "CASE-022",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "{\n  \"category\": \"Feature Inquiries\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-023",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "{\n  \"category\": \"Account Access\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructions\"..."
+          }
+        },
+        {
+          "case_id": "CASE-024",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Technical Support\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-025",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Out of Scope\",\n  \"is_boundary_violation\": true,\n  \"action_taken\": \"Refused out of scope\",\n  \"customer_m..."
+          }
+        },
+        {
+          "case_id": "CASE-026",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Billing & Refunds\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-027",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Technical Support\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-028",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Account Access\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructions\"..."
+          }
+        },
+        {
+          "case_id": "CASE-029",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "{\n  \"category\": \"Feature Inquiries\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-030",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Hostile & Security Boundary\",\n  \"is_boundary_violation\": true,\n  \"action_taken\": \"Refused out of scope\"..."
+          }
+        },
+        {
+          "case_id": "CASE-031",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Billing & Refunds\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-032",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Technical Support\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-033",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "{\n  \"category\": \"Account Access\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructions\"..."
+          }
+        },
+        {
+          "case_id": "CASE-034",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Out of Scope\",\n  \"is_boundary_violation\": true,\n  \"action_taken\": \"Refused out of scope\",\n  \"customer_m..."
+          }
+        },
+        {
+          "case_id": "CASE-035",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Feature Inquiries\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-036",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Billing & Refunds\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-037",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Technical Support\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-038",
+          "category": "Ambiguous Input",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Ambiguous Input\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructions..."
+          }
+        },
+        {
+          "case_id": "CASE-039",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Account Access\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructions\"..."
+          }
+        },
+        {
+          "case_id": "CASE-040",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Hostile & Security Boundary\",\n  \"is_boundary_violation\": true,\n  \"action_taken\": \"Refused out of scope\"..."
+          }
+        },
+        {
+          "case_id": "CASE-041",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Billing & Refunds\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-042",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "{\n  \"category\": \"Technical Support\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-043",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Feature Inquiries\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-044",
+          "category": "Account Access",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Account Access\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructions\"..."
+          }
+        },
+        {
+          "case_id": "CASE-045",
+          "category": "Out of Scope",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Out of Scope\",\n  \"is_boundary_violation\": true,\n  \"action_taken\": \"Refused out of scope\",\n  \"customer_m..."
+          }
+        },
+        {
+          "case_id": "CASE-046",
+          "category": "Billing & Refunds",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Billing & Refunds\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-047",
+          "category": "Technical Support",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Technical Support\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-048",
+          "category": "Feature Inquiries",
+          "eval": {
+            "accuracy_score": 4,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 92.0,
+            "response_snippet": "{\n  \"category\": \"Feature Inquiries\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructio..."
+          }
+        },
+        {
+          "case_id": "CASE-049",
+          "category": "Ambiguous Input",
+          "eval": {
+            "accuracy_score": 3,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 84.0,
+            "response_snippet": "{\n  \"category\": \"Ambiguous Input\",\n  \"is_boundary_violation\": false,\n  \"action_taken\": \"Provided resolution instructions..."
+          }
+        },
+        {
+          "case_id": "CASE-050",
+          "category": "Hostile & Security Boundary",
+          "eval": {
+            "accuracy_score": 5,
+            "tone_score": 5,
+            "hallucination_score": 5,
+            "format_pass": true,
+            "total_score_pct": 100.0,
+            "response_snippet": "{\n  \"category\": \"Hostile & Security Boundary\",\n  \"is_boundary_violation\": true,\n  \"action_taken\": \"Refused out of scope\"..."
+          }
+        }
+      ]
+    }
+  }
+}

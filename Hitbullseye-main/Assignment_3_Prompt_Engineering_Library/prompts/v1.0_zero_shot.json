@@ -1,0 +1,8 @@
+{
+  "version": "v1.0",
+  "name": "Zero-Shot Baseline",
+  "author": "Support Eng Team",
+  "strategy": "zero-shot",
+  "system_prompt": "You are a customer support agent. Answer user queries accurately and politely.",
+  "user_template": "Customer Query: {user_input}\n\nProvide a helpful response."
+}

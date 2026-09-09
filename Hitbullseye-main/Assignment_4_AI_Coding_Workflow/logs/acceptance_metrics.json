@@ -1,0 +1,72 @@
+[
+  {
+    "task_id": "TASK-01",
+    "lines_generated": 18,
+    "lines_kept": 14,
+    "lines_modified": 4,
+    "acceptance_rate_pct": 77.8
+  },
+  {
+    "task_id": "TASK-02",
+    "lines_generated": 30,
+    "lines_kept": 18,
+    "lines_modified": 12,
+    "acceptance_rate_pct": 60.0
+  },
+  {
+    "task_id": "TASK-03",
+    "lines_generated": 15,
+    "lines_kept": 15,
+    "lines_modified": 0,
+    "acceptance_rate_pct": 100.0
+  },
+  {
+    "task_id": "TASK-04",
+    "lines_generated": 12,
+    "lines_kept": 11,
+    "lines_modified": 1,
+    "acceptance_rate_pct": 91.7
+  },
+  {
+    "task_id": "TASK-05",
+    "lines_generated": 10,
+    "lines_kept": 5,
+    "lines_modified": 5,
+    "acceptance_rate_pct": 50.0
+  },
+  {
+    "task_id": "TASK-06",
+    "lines_generated": 20,
+    "lines_kept": 20,
+    "lines_modified": 0,
+    "acceptance_rate_pct": 100.0
+  },
+  {
+    "task_id": "TASK-07",
+    "lines_generated": 10,
+    "lines_kept": 6,
+    "lines_modified": 4,
+    "acceptance_rate_pct": 60.0
+  },
+  {
+    "task_id": "TASK-08",
+    "lines_generated": 25,
+    "lines_kept": 25,
+    "lines_modified": 0,
+    "acceptance_rate_pct": 100.0
+  },
+  {
+    "task_id": "TASK-09",
+    "lines_generated": 18,
+    "lines_kept": 18,
+    "lines_modified": 0,
+    "acceptance_rate_pct": 100.0
+  },
+  {
+    "task_id": "TASK-10",
+    "lines_generated": 16,
+    "lines_kept": 10,
+    "lines_modified": 6,
+    "acceptance_rate_pct": 62.5
+  }
+]

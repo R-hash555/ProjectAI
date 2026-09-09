@@ -1,0 +1,44 @@
+[
+  {
+    "task_id": "TASK-01",
+    "defect_category": "Edge Case Omission",
+    "description": "Fails to trim and validate non-empty string requirement on user 'name' field.",
+    "severity": "Low",
+    "caught_by": "Independent Test Suite"
+  },
+  {
+    "task_id": "TASK-02",
+    "defect_category": "Concurrency & Logic",
+    "description": "Omits thread lock and forgets TTL expiration check in get() method, returning stale data.",
+    "severity": "High",
+    "caught_by": "Independent Test Suite"
+  },
+  {
+    "task_id": "TASK-04",
+    "defect_category": "Logic / Precision",
+    "description": "Omits rounding floating-point currency subtraction, leading to 0.30000000000000004 result.",
+    "severity": "Medium",
+    "caught_by": "Independent Test Suite"
+  },
+  {
+    "task_id": "TASK-05",
+    "defect_category": "Concurrency",
+    "description": "Non-atomic integer increment without mutex synchronization in multi-threaded environment.",
+    "severity": "Critical",
+    "caught_by": "Independent Test Suite"
+  },
+  {
+    "task_id": "TASK-07",
+    "defect_category": "Security Vulnerability",
+    "description": "Uses f-string interpolation instead of parameterized query parameters, exposing SQL injection vulnerability.",
+    "severity": "Critical",
+    "caught_by": "Independent Test Suite / Security Review"
+  },
+  {
+    "task_id": "TASK-10",
+    "defect_category": "Resource Management",
+    "description": "Omits unsubscribe method in event subscriber registry, holding hard references causing memory leak.",
+    "severity": "High",
+    "caught_by": "Independent Test Suite"
+  }
+]
